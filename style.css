@@ -178,15 +178,6 @@ h1::after
     width: 200;
     height: 200;
 }
-.profile-pic .img-box img
-{
-    filter: grayscale(1);
-}
-.profile-pic .img-box img:hover
-{
-    filter: grayscale(0);
-    cursor: pointer;
-}
 .profile-pic h2
 {
     font-size: 22px;
