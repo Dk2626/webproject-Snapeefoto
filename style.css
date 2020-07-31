@@ -12,7 +12,7 @@
 }
 .navbar-brand img
 {
-    height: 40px;
+    height: 50px;
     padding-left: 20px;
 }
 .navbar-nav li
@@ -28,36 +28,38 @@
 {
     color: #007bff!important;
 }
-.navbar-nav
+/**.navbar-nav
 {
     background: #fff;
-}
+}**/
 .navbar-toggler
 {
     border: none!important;
 }
 .nav-link
 {
-    color: #555!important;
+    color: #fff!important;
     font-weight: 600;
     font-size: 16px;
 }
-/**#slider
+/**----Sliderimg---**/
+.carousel-item{
+    height: 100vh;
+    min-height: 100px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+/**.carousel-caption .middle
 {
-    width: 100%;
-    height: fit-content;
-
-}***/
-.carousel-caption
-{
-    top: 30%;
+    top: 100%;
     transform: translateY(-50%);
     bottom: initial!important;
-}
+}**/
 .carousel-caption h5
 {
-    color: white;
     font-size: 42px;
+    font-style: italic;
 }
 /*----About----*/
 #about
@@ -92,7 +94,7 @@
 /*-----Services----*/
 #services
 {
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/pic4.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/pic5.jpg);
     background-size: cover;
     background-position: center;
     color: #efefef !important;
